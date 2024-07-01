@@ -18,6 +18,10 @@ TagManager:
   - Shell
   - DeadZoon
   - FireBall
+  - UpGround
+  - UnderGround
+  - UI
+  - Coin
   layers:
   - Default
   - TransparentFX

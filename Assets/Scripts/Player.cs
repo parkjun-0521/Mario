@@ -209,6 +209,10 @@ public class Player : MonoBehaviour {
             GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraManager>().UpGroundPosition();
             transform.position = GameManager.Instance.upSpawn.position;
         }
+        else if (collision.gameObject.CompareTag("Coin")) {
+            GameManager.Instance.score += 200;
+            collision.gameObject.SetActive(false);
+        }
     }
 
 
