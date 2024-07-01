@@ -1,0 +1,465 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16213 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/User/SuperMario
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55546
+Successfully changed project path to: C:/Users/User/SuperMario
+C:/Users/User/SuperMario
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [34828] Host "[IP] 192.168.0.34 [Port] 0 [Flags] 2 [Guid] 194860461 [EditorId] 194860461 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7FL9E6G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [34828] Host "[IP] 192.168.0.34 [Port] 0 [Flags] 2 [Guid] 194860461 [EditorId] 194860461 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7FL9E6G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 12.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/SuperMario/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011573 seconds.
+- Loaded All Assemblies, in  0.369 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 218 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.582 seconds
+Domain Reload Profiling: 950ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (106ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (132ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (583ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (517ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (337ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.677 seconds
+Refreshing native plugins compatible for Editor in 5.21 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.726 seconds
+Domain Reload Profiling: 1400ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (447ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (149ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (726ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (551ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (398ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4478 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (246.2 KB). Loaded Objects now: 4940.
+Memory consumption went from 167.5 MB to 167.2 MB.
+Total: 3.187400 ms (FindLiveObjects: 0.268300 ms CreateObjectMapping: 0.104100 ms MarkObjects: 2.615800 ms  DeleteObjects: 0.198200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 211899.682470 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(2564845f11e84d7499a4070b0fc1163d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIManager.cs using Guid(2564845f11e84d7499a4070b0fc1163d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f92b240295748ae5b7104ebfe40af9e') in 0.002644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.023396 seconds.
+  path: Assets/Scripts/Coin.cs
+  artifactKey: Guid(0280d8bc53828d64bb8f7edabda8b61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Coin.cs using Guid(0280d8bc53828d64bb8f7edabda8b61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790c23a8b2367847e3a18119987b4e07') in 0.000452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.035726 seconds.
+  path: Assets/Scripts/EnemyGoomba.cs
+  artifactKey: Guid(c77451fc9e46e484b926e5ad34ec3103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyGoomba.cs using Guid(c77451fc9e46e484b926e5ad34ec3103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5345e303f82e416e425f8e8fb175dad3') in 0.000881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009102 seconds.
+  path: Assets/Sprites/2_Mario/Animation/Fire_1.controller
+  artifactKey: Guid(bf3ceeb6fa5713a45b4f08d7793aa5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2_Mario/Animation/Fire_1.controller using Guid(bf3ceeb6fa5713a45b4f08d7793aa5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0788764c9a15193cf56f47da4e1e9a') in 0.013633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.034716 seconds.
+  path: Assets/Sprites/3_Enemy/Turtle/Animation/Turtle.controller
+  artifactKey: Guid(4dc97075d7edf68468e134a2a3941ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/3_Enemy/Turtle/Animation/Turtle.controller using Guid(4dc97075d7edf68468e134a2a3941ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c176e78b0a671fdd6c16be10600195') in 0.001473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.001329 seconds.
+  path: Assets/Scripts/StarItem.cs
+  artifactKey: Guid(29e92e7eb20c65d4386687fdfb7b7e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StarItem.cs using Guid(29e92e7eb20c65d4386687fdfb7b7e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4054cee32577abf6e71a5ac36393483') in 0.000474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.013262 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b11ee16ddcd6102a8b555e8be94a9dd') in 0.000571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012232 seconds.
+  path: Assets/Scripts/Shell.cs
+  artifactKey: Guid(f4bbbdb9ea0d8154cb8ad1851850d51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Shell.cs using Guid(f4bbbdb9ea0d8154cb8ad1851850d51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c745e6a565573f2013b85c960ff83c6') in 0.000530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006673 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(1d3338b2cae80604ba52185ff1aae564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(1d3338b2cae80604ba52185ff1aae564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2febf45bf24ec2cf26bc28d60531a3') in 0.000542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012990 seconds.
+  path: Assets/Sprites/5_UI/Animation/Image 1.controller
+  artifactKey: Guid(543c146c064021c4c855d91d06dd7b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/5_UI/Animation/Image 1.controller using Guid(543c146c064021c4c855d91d06dd7b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fae21a6af7fac9859a55c079a7a1976') in 0.001483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.008974 seconds.
+  path: Assets/Sprites/1_Map/3_Block/Animation/BlockIdle.anim
+  artifactKey: Guid(6ffd96d241a5b8a4883044e945bcc7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/1_Map/3_Block/Animation/BlockIdle.anim using Guid(6ffd96d241a5b8a4883044e945bcc7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6374e7109556a540fbdc536345c2daef') in 0.001697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.046467 seconds.
+  path: Assets/Scripts/EnemyTurtle.cs
+  artifactKey: Guid(038e1c188109f6d4ea77fd8069f3e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyTurtle.cs using Guid(038e1c188109f6d4ea77fd8069f3e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76207dbf4278ad2d9f054dcbed4105e') in 0.000599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011344 seconds.
+  path: Assets/Sprites/2_Mario/Animation/SuperMarioFinish.anim
+  artifactKey: Guid(ba449758a4879e94a986124216cf4422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2_Mario/Animation/SuperMarioFinish.anim using Guid(ba449758a4879e94a986124216cf4422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db8d46af1798bc8a17a48f82518b2cf') in 0.001164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003204 seconds.
+  path: Assets/Sprites/5_UI/Animation/Image.controller
+  artifactKey: Guid(37ec4fa8fca81ce40993fa5616b2a734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/5_UI/Animation/Image.controller using Guid(37ec4fa8fca81ce40993fa5616b2a734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb184bb1940d0a0dc4c12ad4945de05') in 0.001341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.004158 seconds.
+  path: Assets/Scripts/Flag.cs
+  artifactKey: Guid(ca9bb191f569c82438264940b5c8f174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Flag.cs using Guid(ca9bb191f569c82438264940b5c8f174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bb634a3b678111a8d8b55ba64ed72c') in 0.000529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003001 seconds.
+  path: Assets/Sprites/2_Mario/Animation/MarioDead.anim
+  artifactKey: Guid(39fc94ba21e4079459c845dc45664ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2_Mario/Animation/MarioDead.anim using Guid(39fc94ba21e4079459c845dc45664ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d039c55c12da332ef01bd97ec10a64a') in 0.001169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008852 seconds.
+  path: Assets/Sprites/2_Mario/Animation/FieryMarioFireBall.anim
+  artifactKey: Guid(7802873aa062de2468ab03994e849bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2_Mario/Animation/FieryMarioFireBall.anim using Guid(7802873aa062de2468ab03994e849bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ca12e13762ae9e8e4a68ce60819dd9') in 0.001226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.035027 seconds.
+  path: Assets/Sprites/2_Mario/Animation/Firework1.controller
+  artifactKey: Guid(c8053eb39e0d55b42ac8b31dc576a4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2_Mario/Animation/Firework1.controller using Guid(c8053eb39e0d55b42ac8b31dc576a4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7387846f53f2c5ffa7ebadb5d8279a6') in 0.001394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.016278 seconds.
+  path: Assets/Sprites/2_Mario/Animation/Mario.controller
+  artifactKey: Guid(177e73044732a5f468b73b19aa7489d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2_Mario/Animation/Mario.controller using Guid(177e73044732a5f468b73b19aa7489d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341b9e8ebee6c745ce0adea18cf131fa') in 0.004261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.078393 seconds.
+  path: Assets/Sprites/2_Mario/Animation/SuperMarioFiery.anim
+  artifactKey: Guid(313b992d608b08b4986d2a75a1916355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2_Mario/Animation/SuperMarioFiery.anim using Guid(313b992d608b08b4986d2a75a1916355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022289ca6faf0ff2684f0ee2e2aa891b') in 0.001293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.098030 seconds.
+  path: Assets/Scripts/FireBall.cs
+  artifactKey: Guid(a61518364c50747408e4b815c884ed9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FireBall.cs using Guid(a61518364c50747408e4b815c884ed9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e24d18570788d605c38514c218f60dc') in 0.000525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007618 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(0504fb80216980a48acb6fed20976b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(0504fb80216980a48acb6fed20976b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25074b287049903222e4c217f9568f56') in 0.000632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007679 seconds.
+  path: Assets/Sprites/2_Mario/Animation/Firework.anim
+  artifactKey: Guid(8fc9319c7996cd04aa5f10ed3b6f7cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2_Mario/Animation/Firework.anim using Guid(8fc9319c7996cd04aa5f10ed3b6f7cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b5ab116a06d48dd1728e5eca0693ef') in 0.001176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.122134 seconds.
+  path: Assets/Prefabs/Enemy/Goomba.prefab
+  artifactKey: Guid(e1a10aca4a4e5904e920c03c964d2c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy/Goomba.prefab using Guid(e1a10aca4a4e5904e920c03c964d2c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Goomba': Transition 'GoombaDead -> Exit' in state 'GoombaDead' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 1848]
+
+ -> (artifact id: '85a54ba1a4eeeb666710033d6710d29b') in 0.064917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.077453 seconds.
+  path: Assets/Scripts/MushroomItem.cs
+  artifactKey: Guid(62c77db5c48590e41abe24b85cbba65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MushroomItem.cs using Guid(62c77db5c48590e41abe24b85cbba65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6674b5ead35c2a89ebe5269c92b8cfec') in 0.000800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.045955 seconds.
+  path: Assets/Sprites/2_Mario/Animation/FieryMarioFinish.anim
+  artifactKey: Guid(651fc0ece95b70f4a8bb8d1de17af139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2_Mario/Animation/FieryMarioFinish.anim using Guid(651fc0ece95b70f4a8bb8d1de17af139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ba8e5992c84d75aa04911bee1e76ca') in 0.001201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.033165 seconds.
+  path: Assets/Sprites/5_UI/Animation/CoinUI.anim
+  artifactKey: Guid(5a91008a0f51d0449ad095cb9a63677b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/5_UI/Animation/CoinUI.anim using Guid(5a91008a0f51d0449ad095cb9a63677b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe8b27427fd9e733297f436d3d6e48a') in 0.001208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004753 seconds.
+  path: Assets/Scripts/CameraManager.cs
+  artifactKey: Guid(e0c5015b861546c4ca9ebf8fa13be7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraManager.cs using Guid(e0c5015b861546c4ca9ebf8fa13be7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae0f727657bb768fabd7b44f532b5bd') in 0.000545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008238 seconds.
+  path: Assets/Scripts/Block.cs
+  artifactKey: Guid(489d108ba38408544a00bb4f1da440af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Block.cs using Guid(489d108ba38408544a00bb4f1da440af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec22b5663973a0b03c3d647e287aa185') in 0.000567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008642 seconds.
+  path: Assets/Sprites/3_Enemy/Turtle/Animation/TurtleWalk.anim
+  artifactKey: Guid(5459b0f3e6ed1ba43bdf33f942ed3f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/3_Enemy/Turtle/Animation/TurtleWalk.anim using Guid(5459b0f3e6ed1ba43bdf33f942ed3f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1676854625fd3e9c0bc526efbe8c7b') in 0.001345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006385 seconds.
+  path: Assets/Scripts/QuestionBlock.cs
+  artifactKey: Guid(be2b1f689eae8a4428ea6b1f9a55d954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QuestionBlock.cs using Guid(be2b1f689eae8a4428ea6b1f9a55d954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b11b1b79e0655aa20902436409a48d') in 0.000596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.019690 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(281800b4fbde5aa4b883dd77dfe94a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(281800b4fbde5aa4b883dd77dfe94a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cf5a9728fcf992fb2a87e5229177ab') in 0.000683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.022038 seconds.
+  path: Assets/Sprites/2_Mario/Animation/Fire.anim
+  artifactKey: Guid(1fd09927c2a46c744b1ad80c67a1e782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2_Mario/Animation/Fire.anim using Guid(1fd09927c2a46c744b1ad80c67a1e782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717b95645cf390b4aff2c726b6c565f1') in 0.001228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
