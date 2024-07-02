@@ -5,11 +5,64 @@
   - 언어를 공부한 것을 바탕으로 다양하게 로직을 구성해보았습니다.
   - delegate, Action, interface 등을 사용하여 구현하였습니다 .
 
+
+
   ## 개발엔진 
   - Unity
   - Visual Studio 2022
 
   ## 기능 구현 
+
+  ### Manager
+  - KeyManager
+    - InputManager에 관련된 키값들을 한번에 모아서 관리하기 위한 Manager Script 입니다.
+    ```C#
+        public static InputKeyManager instance;
+
+    // 열거형 변수 선언 
+    public enum KeyCodeTypes {
+        LeftMove,
+        RightMove,
+        DownMove,
+        Down,
+        Jump,
+        Attack,
+        Run
+    }
+
+    // 딕셔너리로 키 관리 
+    private Dictionary<KeyCodeTypes, KeyCode> keyMappings;
+
+    void Awake() {
+        instance = this;
+        // 딕셔너리 초기화 
+        keyMappings = new Dictionary<KeyCodeTypes, KeyCode>();
+
+        // 각 디셔너리 키에 맞는 키보드 값을 추가 
+        keyMappings[KeyCodeTypes.LeftMove] = KeyCode.LeftArrow;
+        keyMappings[KeyCodeTypes.RightMove] = KeyCode.RightArrow;
+        keyMappings[KeyCodeTypes.DownMove] = KeyCode.DownArrow;
+        keyMappings[KeyCodeTypes.Jump] = KeyCode.Z;
+        keyMappings[KeyCodeTypes.Attack] = KeyCode.C;
+        keyMappings[KeyCodeTypes.Run] = KeyCode.X;
+    }
+
+    public KeyCode GetKeyCode( KeyCodeTypes action ) {
+        // 키값 반환 
+        return keyMappings[action];
+    }
+
+    public void SetKeyCode( KeyCodeTypes action, KeyCode keyCode ) {
+        // 키값 설정 
+        keyMappings[action] = keyCode;
+    }
+    ``` 
+
+  - GameManager
+
+  - Cameramanager
+
+  ---
 
   ### 이동 및 점프 
   <p align="left" >
@@ -87,7 +140,7 @@
        rigid.velocity = clampedVelocity;
    }
 ```
-  
+  ---
 
   ### 공격 
   - 파이어볼 
@@ -100,9 +153,15 @@
     <img src = "https://github.com/parkjun-0521/Mario/blob/master/Image/%EA%BB%8D%EC%A7%88.gif" width="200" height="200">
   </p>
   
+  ---
+  
   ### 몬스터 
 
+  ---
+
   ### 아이템 
+
+  ---
 
   ### 여러 이벤트 
 
@@ -110,7 +169,11 @@
   - <p align="left" >
     <img src = "https://github.com/parkjun-0521/Mario/blob/master/Image/%EC%A7%80%ED%95%98.gif" width="200" height="200">
   </p>
+
+  ---
   
   ### UI
+
+  ---
 
   ### 만들면서 배우게 된 것 
