@@ -16,49 +16,38 @@
   ### Manager
   - KeyManager
     - InputManager에 관련된 키값들을 한번에 모아서 관리하기 위한 Manager Script 입니다.
+    - 딕셔너리로 각 타입에 맞는 값는 키값을 묶어 키를 관리하였습니다.
+    - 접근은 InputKeyManager를 (keyManager)객체로 받아와 keyManager.GetKeyCode(KeyCodeTypes.LeftMove)
     ```C#
-        public static InputKeyManager instance;
+    public static InputKeyManager instance;
 
     // 열거형 변수 선언 
     public enum KeyCodeTypes {
         LeftMove,
         RightMove,
-        DownMove,
-        Down,
-        Jump,
-        Attack,
-        Run
     }
-
     // 딕셔너리로 키 관리 
     private Dictionary<KeyCodeTypes, KeyCode> keyMappings;
-
     void Awake() {
         instance = this;
         // 딕셔너리 초기화 
         keyMappings = new Dictionary<KeyCodeTypes, KeyCode>();
-
         // 각 디셔너리 키에 맞는 키보드 값을 추가 
         keyMappings[KeyCodeTypes.LeftMove] = KeyCode.LeftArrow;
         keyMappings[KeyCodeTypes.RightMove] = KeyCode.RightArrow;
-        keyMappings[KeyCodeTypes.DownMove] = KeyCode.DownArrow;
-        keyMappings[KeyCodeTypes.Jump] = KeyCode.Z;
-        keyMappings[KeyCodeTypes.Attack] = KeyCode.C;
-        keyMappings[KeyCodeTypes.Run] = KeyCode.X;
     }
-
     public KeyCode GetKeyCode( KeyCodeTypes action ) {
         // 키값 반환 
         return keyMappings[action];
     }
-
     public void SetKeyCode( KeyCodeTypes action, KeyCode keyCode ) {
         // 키값 설정 
         keyMappings[action] = keyCode;
     }
-    ``` 
+    ```
 
   - GameManager
+    - 
 
   - Cameramanager
 
