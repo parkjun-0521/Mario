@@ -137,11 +137,46 @@
     <img src = "https://github.com/parkjun-0521/Mario/blob/master/Image/%ED%8C%8C%EC%9D%B4%EC%96%B4%EB%B3%BC.gif" width="200" height="200">
   </p>
   
+  - 꽃 아이템을 먹었을 때 불을 발사할 수 있는 상태로 변합니다.
+  - hp 라는 변수를 사용하여 마리오의 체력을 구현하면서 변수를 활용하여 마리오의 스프라이트의 변화를 주었습니다.
+  - 마리오는 스프라이트가 전환되는 방식이 아닌 애니메이션 방식으로 구현하였습니다. 
+  ```C#
+      if (collision.gameObject.CompareTag("FlowerItem")) {
+            GameManager.Instance.score += 1000;
+            if (hp == 2) {
+                collision.gameObject.SetActive(false);
+                return;
+            }
+
+            Time.timeScale = 0; 
+            animator.updateMode = AnimatorUpdateMode.UnscaledTime;
+            collision.gameObject.SetActive(false);
+            if (hp == 0) {
+                OnMarioMove -= MarioMove;
+                isJumping = true;
+                animator.SetTrigger("isMushroom");
+                MarioChange(1, 1f, 0.5f, 0.25f, 0.75f);
+            }
+            else if (hp == 1) {
+                OnMarioMove -= MarioMove;
+                isJumping = true;
+                animator.SetTrigger("isFlower");
+                MarioChange(2, 1f, 0.5f, 0.25f, 0.75f);
+            }
+            hp += 1;
+        }
+  ```
+  
   - 거북이 등껍질
   <p align="left" >
     <img src = "https://github.com/parkjun-0521/Mario/blob/master/Image/%EA%BB%8D%EC%A7%88.gif" width="200" height="200">
   </p>
-  
+
+  - 밟으면 날아가는 거북이 등껍질 아이템 입니다.
+  - 플레이어와 x 좌표를 비교하여 날아가는 방향을 결정합니다.
+  - 날아갈때는 bool 변수로 날아가는 상태인것을 체크하여 Enemy와 Player에게 부딪쳤을 때 데미지를 줍니다.
+  - 좌우에 raycast를 활성화 하여 pipe 또는 ground에 닿았을 때 방향을 전환합니다. 
+
   ---
   
   ### 몬스터 
