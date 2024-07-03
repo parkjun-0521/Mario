@@ -105,7 +105,7 @@
     }
   ```
   - 이 외에도 카메라는 y축으로 이동할 수 없고 오직 x축으로만 이동할 수 있도록 구현하였습니다.
- 
+  - [CameraManager Code](https://github.com/parkjun-0521/Mario/blob/master/Assets/Scripts/CameraManager.cs)
 
   ### 오브젝트 풀링 
   - [오브젝트 풀링 구현 Code](https://github.com/parkjun-0521/Mario/blob/master/Assets/Scripts/Pooling.cs)
