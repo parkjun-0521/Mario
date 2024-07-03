@@ -176,7 +176,7 @@
   - 플레이어와 x 좌표를 비교하여 날아가는 방향을 결정합니다.
   - 날아갈때는 bool 변수로 날아가는 상태인것을 체크하여 Enemy와 Player에게 부딪쳤을 때 데미지를 줍니다.
   - 좌우에 raycast를 활성화 하여 pipe 또는 ground에 닿았을 때 방향을 전환합니다. 
-
+  - https://github.com/parkjun-0521/Mario/blob/master/Assets/Scripts/Shell.cs
   ---
   
   ### 몬스터 
