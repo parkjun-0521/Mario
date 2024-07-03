@@ -51,6 +51,9 @@
 
   - Cameramanager
 
+
+  ### 오브젝트 풀링 
+
   ---
 
   ### 이동 및 점프 
@@ -180,10 +183,16 @@
   ---
   
   ### 몬스터 
+  - [Enemy interface 및 class](https://github.com/parkjun-0521/Mario/blob/master/Assets/Scripts/Enemy.cs)
 
   - 굼바
+    - 단순한 좌우 이동 로직과 충돌로직이 있습니다.
+    - 이동 방향 중 오브젝트와 충돌했을 때 방향을 전환하기 위해 양옆으로 Ray를 쏴 오브젝트를 구별하여 방향 전환을 하였습니다.
+    - 부모의 함수를 override 하여 필요한 부분들만 구현하였습니다. 
 
-  - 거북이 
+  - 거북이
+    - 굼바와 거의 모든 기능이 일치합니다.
+    - 다른점은 거북이에서는 부모의 public virtual void ShellDrop(GameObject shell ) { return; } 함수를 구현하였습니다. 
 
   ---
 
@@ -248,8 +257,6 @@
         }
     }
 ```
-
-  
 
   ---
   
