@@ -176,14 +176,26 @@
   - 플레이어와 x 좌표를 비교하여 날아가는 방향을 결정합니다.
   - 날아갈때는 bool 변수로 날아가는 상태인것을 체크하여 Enemy와 Player에게 부딪쳤을 때 데미지를 줍니다.
   - 좌우에 raycast를 활성화 하여 pipe 또는 ground에 닿았을 때 방향을 전환합니다. 
-  - https://github.com/parkjun-0521/Mario/blob/master/Assets/Scripts/Shell.cs
+  - [등껍질 구현 Code](https://github.com/parkjun-0521/Mario/blob/master/Assets/Scripts/Shell.cs)
   ---
   
   ### 몬스터 
 
+  - 굼바
+
+  - 거북이 
+
   ---
 
   ### 아이템 
+
+  - 버섯
+
+  - 꽃
+
+  - 코인
+
+  - 별 
 
   ---
 
@@ -194,10 +206,60 @@
     <img src = "https://github.com/parkjun-0521/Mario/blob/master/Image/%EC%A7%80%ED%95%98.gif" width="200" height="200">
   </p>
 
+  - 깃발에 닿았을 때와 깃발 밑의 바닥에 닿았을 때를 구분하여 동작을 하게 하였다.
+  - 깃발에 닿을 시
+  - gravityScale를 조정하여 자연스럽게 아래로 떨어지게 구현하였다.
+```C#
+    if (collision.gameObject.CompareTag("FinishLine")){
+            UIManager uIManager = GameObject.FindGameObjectWithTag("UI").GetComponent<UIManager>();
+            uIManager.StopTime();
+            isFinish = true;
+            OnMarioMove -= MarioMove;
+            rigid.velocity = Vector3.zero;
+            rigid.gravityScale = 0.5f;
+            animator.SetBool("isFinish", true);
+        }
+```
+
+
+
+- 바닥에 닿았을 때
+- 성 까지 들어가는 부분은 코루틴을 사용하여 이동시키면서 애니메이션 같은 효과를 주었습니다.
+- 애니메이션은 자원이 많이들어가기 때문에 이러한 단순 거리 이동은 MoveTowards로 구현하는거 더 좋다고 생각했습니다. 
+ ```C#
+   if (collision.gameObject.CompareTag("FinishBlock")) {
+            rigid.gravityScale = 3f;
+            GameObject collider2D = GameObject.FindGameObjectWithTag("FinishLine");
+            collider2D.GetComponent<BoxCollider2D>().enabled = false;
+            animator.SetBool("isFinish", false);
+            StartCoroutine(End());
+        }
+   IEnumerator End() {
+        rigid.MovePosition(rigid.position + new Vector2(0.75f, 0));
+        spriteRenderer.flipX = true;
+        yield return new WaitForSeconds(0.5f);
+        spriteRenderer.flipX = false;
+        // 이동을 보장하기 위해 while 루프 사용
+        animator.SetBool("isJump", false);
+        while (Vector3.Distance(transform.position, GameManager.Instance.targetPosition.position) > 0.01f) {
+            transform.position = Vector3.MoveTowards(transform.position, GameManager.Instance.targetPosition.position, 2f * Time.unscaledDeltaTime);
+            animator.SetBool("isWalk", true);
+            yield return null; // 다음 프레임까지 기다림
+        }
+    }
+```
+
+  
+
   ---
   
   ### UI
 
+  - 타이머
+    - 시간은 400초로 시작해서 1씩 감소한다.
+    - 단, 아이템을 먹거나 깃발에 닿을 시 시간이 일시적으로 멈춘다. 보통 TimeScale을 0으로 만들어 시간을 정지한다.
+    - 이때 Player는 애니메이션을 동작해야하기 때문에 
+    - animator.updateMode = AnimatorUpdateMode.UnscaledTime;
+    - updateMode 를 사용하여 TimeScale에 영향을 받지 않게 하여 아이템을 먹었을 때도 애니메이션을 동작시키도록 구현 
+    
   ---
-
-  ### 만들면서 배우게 된 것 
