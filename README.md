@@ -47,13 +47,71 @@
     ```
 
   - GameManager
-    - 
+    - 싱글톤으로 구현
+    - 게임의 스코어 관리 및 오브젝트 풀링 접근
+    ```C#
+    public class GameManager : MonoBehaviour
+    {
+        private static GameManager instance = null;
+        public static GameManager Instance {
+            get {
+                if (null == instance) return null;
+                return instance;
+            }
+        }
+    
+        public Pooling pooling;
+        public GameObject player;
+        public Transform targetPosition;
+        public Transform underSpawn;
+        public Transform upSpawn;
+    
+        public int score;
+        public int coinScore;
+    
+        void Awake() {
+            if (null == instance) {     
+                instance = this;
+                DontDestroyOnLoad(this.gameObject);
+            }
+            else 
+                Destroy(this.gameObject);
+        }
+    }
+    ```
 
   - Cameramanager
+    - 마리오 화면에 맞게 카메라를 관리합니다.
+    - 플레이어를 따라다니지만 카메라는 오른쪽으로 밖에 이동할 수 없습니다. 즉, 마리오는 지나온 길로 되돌아갈 수 없도록 하였습니다.
+    - 카메라가 왼쪽으로 이동하지 못하게 왼쪽의 x 좌표를 지속적으로 갱신하여 카메라를 제한하였습니다. 
+  ```C#
+ void LimitCameraArea() {
+        Vector3 targetPosition = playerTransform.position + cameraPosition;
+        targetPosition = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * cameraMoveSpeed);
 
+        // 카메라가 이동할 수 있는 최대 X 위치를 계산합니다.
+        float lx = mapSize.x - width;
+        float clampX = Mathf.Clamp(targetPosition.x, -lx + center.x, lx + center.x);
+
+        // 카메라가 왼쪽으로 이동하지 않도록 minX를 업데이트합니다.
+        if (clampX > minX) {
+            minX = clampX;
+        }
+
+        if(!GameManager.Instance.player.GetComponent<Player>().isUnder)
+            transform.position = new Vector3(minX, 6, -10f);
+        else
+            transform.position = new Vector3(minX, -13, -10f);
+    }
+  ```
+  - 이 외에도 카메라는 y축으로 이동할 수 없고 오직 x축으로만 이동할 수 있도록 구현하였습니다.
+ 
 
   ### 오브젝트 풀링 
-
+  - [오브젝트 풀링 구현 Code](https://github.com/parkjun-0521/Mario/blob/master/Assets/Scripts/Pooling.cs)
+  - 리스트로 구현하였습니다.
+  - 리스트안에 있는 오브젝트를 리스트의 순서에 맞는 index로 생성할 수 있는 풀링 방식을 구현하였습니다. 
+    
   ---
 
   ### 이동 및 점프 
