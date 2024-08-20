@@ -34,4 +34,7 @@ public class GameManager : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+    private void Start() {
+        Screen.SetResolution(256, 240, FullScreenMode.Windowed);
+    }
 }

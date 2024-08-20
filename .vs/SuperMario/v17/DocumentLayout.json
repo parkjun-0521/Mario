@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\User\\SuperMario\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|c:\\users\\user\\supermario\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|C:\\Users\\User\\SuperMario\\assets\\scripts\\inputkeymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputkeymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|C:\\Users\\User\\SuperMario\\assets\\scripts\\staritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\staritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|C:\\Users\\User\\SuperMario\\assets\\scripts\\enemygoomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemygoomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|c:\\users\\user\\supermario\\assets\\scripts\\enemyturtle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|C:\\Users\\User\\SuperMario\\assets\\scripts\\enemyturtle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyturtle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,16 +27,12 @@
       "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|C:\\Users\\User\\SuperMario\\assets\\scripts\\staritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\staritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|C:\\Users\\User\\SuperMario\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|C:\\Users\\User\\SuperMario\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|C:\\Users\\User\\SuperMario\\assets\\scripts\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|C:\\Users\\User\\SuperMario\\assets\\scripts\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|C:\\Users\\User\\SuperMario\\assets\\scripts\\pooling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pooling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|C:\\Users\\User\\SuperMario\\assets\\scripts\\inputkeymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputkeymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|C:\\Users\\User\\SuperMario\\assets\\scripts\\firework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|C:\\Users\\User\\SuperMario\\assets\\scripts\\mushroomitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mushroomitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|C:\\Users\\User\\SuperMario\\assets\\scripts\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|C:\\Users\\User\\SuperMario\\assets\\scripts\\flag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,44 +82,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StarItem.cs",
-              "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\StarItem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StarItem.cs",
-              "ToolTip": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\StarItem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StarItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T10:47:37.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Firework.cs",
-              "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\Firework.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Firework.cs",
-              "ToolTip": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\Firework.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Firework.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T06:25:37.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FireBall.cs",
-              "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\FireBall.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\FireBall.cs",
-              "ToolTip": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\FireBall.cs",
-              "RelativeToolTip": "Assets\\Scripts\\FireBall.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBsAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T05:21:45.005Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 16,
@@ -134,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "EnemyTurtle.cs",
               "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\EnemyTurtle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyTurtle.cs",
@@ -142,34 +106,31 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemyTurtle.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T07:58:29.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T07:58:29.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
               "ToolTip": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwCwAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T07:49:18.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T07:49:18.487Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "EnemyGoomba.cs",
               "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\EnemyGoomba.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyGoomba.cs",
               "ToolTip": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\EnemyGoomba.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyGoomba.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAowBEAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T09:11:24.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T09:11:24.005Z"
             },
             {
               "$type": "Document",
@@ -185,6 +146,67 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AQIAAEoBAAAAAAAAAAAiwGcBAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T07:35:49.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StarItem.cs",
+              "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\StarItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StarItem.cs",
+              "ToolTip": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\StarItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StarItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T10:47:37.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InputKeyManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\InputKeyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InputKeyManager.cs",
+              "ToolTip": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\InputKeyManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InputKeyManager.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T07:48:56.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FireBall.cs",
+              "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\FireBall.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FireBall.cs",
+              "ToolTip": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\FireBall.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FireBall.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T05:21:45.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Firework.cs",
+              "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\Firework.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Firework.cs",
+              "ToolTip": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\Firework.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Firework.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T06:25:37.376Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
               "Title": "Flag.cs",
               "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\Flag.cs",
@@ -197,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "Coin.cs",
               "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\Coin.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Coin.cs",
@@ -209,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "MushroomItem.cs",
               "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\MushroomItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MushroomItem.cs",
@@ -221,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Block.cs",
               "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\Block.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Block.cs",
@@ -233,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "QuestionBlock.cs",
               "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\QuestionBlock.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\QuestionBlock.cs",
@@ -245,19 +267,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwCEAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-20T09:48:53.573Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Pooling.cs",
               "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\Pooling.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pooling.cs",
@@ -269,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CameraManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\CameraManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraManager.cs",
@@ -278,30 +300,6 @@
               "ViewState": "AQIAAA4AAAAAAAAAAAApwCkAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T07:57:50.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "InputKeyManager.cs",
-              "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\InputKeyManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InputKeyManager.cs",
-              "ToolTip": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\InputKeyManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InputKeyManager.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwB0AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T07:48:56.972Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
-              "ToolTip": "C:\\Users\\User\\SuperMario\\Assets\\Scripts\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AQIAABQBAAAAAAAAAAAAADUBAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T07:35:49.927Z"
             }
           ]
         }
